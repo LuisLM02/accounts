@@ -1,5 +1,20 @@
-[
-  {"id":1,"name":"BBVA","type":"Credit","money":10},
-  {"id":2,"name":"HSBC","type":"Cash","money":1250},
-  {"id":3,"name":"Santander","type":"Debit","money":150}
-]
+{
+  {
+    "id":1,
+    "name":"BBVA",
+    "type":"Credit",
+    "money":10
+  },
+  {
+    "id":2,
+    "name":"HSBC",
+    "type":"Cash",
+    "money":1250
+  },
+  {
+    "id":3,
+    "name":"Santander",
+    "type":"Debit",
+    "money":150
+  }
+}
