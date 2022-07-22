@@ -1,22 +1,35 @@
 {
-  "accounts" : [
-    {
-      "id": 1,
-      "name": "BBVA",
-      "type": "Credit",
-      "money": 10
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    {
-      "id": 2,
-      "name": "HSBC",
-      "type": "Cash",
-      "money": 1250
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
     },
-    {
-      "id": 3,
-      "name": "Santander",
-      "type": "Debit",
-      "money": 150
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     }
-  ]
+  }
 }
