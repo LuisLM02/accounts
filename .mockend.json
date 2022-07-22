@@ -1,5 +1,5 @@
 [
-  {
+  "accounts" : [  {
     "id":1,
     "name":"BBVA",
     "type":"Credit",
@@ -16,5 +16,5 @@
     "name":"Santander",
     "type":"Debit",
     "money":150
-  }
+  }]
 ]
